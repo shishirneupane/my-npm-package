@@ -5,5 +5,5 @@ test("Returns hello NPM", () => {
 });
 
 test("Filters selected item from array", () => {
-  expect(filterItem([1, 2, 3], 2)).toStrictEqual([1, 3]);
+  expect(filterItem([1, 2, 3], 2)).toBe([1, 3]);
 });
